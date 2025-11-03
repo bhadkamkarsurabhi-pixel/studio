@@ -1,3 +1,130 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "A tranquil, elegant lifestyle scene with soft lighting, perhaps featuring minimalist decor and a hint of nature.",
+      "imageUrl": "https://images.unsplash.com/photo-1648111124843-4729d57ab15f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsaWZlc3R5bGUlMjBiZWF1dHl8ZW58MHx8fHwxNzYyMTgxNzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lifestyle beauty"
+    },
+    {
+      "id": "promo-1",
+      "description": "A beautiful flat lay of skincare products on a marble surface.",
+      "imageUrl": "https://images.unsplash.com/photo-1587698530300-0d51916a1c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2tpbmNhcmUlMjBmbGF0bGF5fGVufDB8fHx8MTc2MjE4MTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare flatlay"
+    },
+    {
+      "id": "promo-2",
+      "description": "A person with beautiful, healthy hair, seen from behind.",
+      "imageUrl": "https://images.unsplash.com/photo-1605980766335-d3a41c7332a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoZWFsdGh5JTIwaGFpcnxlbnwwfHx8fDE3NjIxODE3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy hair"
+    },
+    {
+      "id": "category-skincare",
+      "description": "A minimalist shot of a skincare bottle with a clean background.",
+      "imageUrl": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHByb2R1Y3R8ZW58MHx8fHwxNzYyMDg3MDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare product"
+    },
+    {
+      "id": "category-haircare",
+      "description": "A collection of aesthetic haircare bottles.",
+      "imageUrl": "https://images.unsplash.com/photo-1734892498467-9344ffc6917b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyY2FyZSUyMHByb2R1Y3RzfGVufDB8fHx8MTc2MjE4MTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "haircare products"
+    },
+    {
+      "id": "category-fragrance",
+      "description": "An elegant perfume bottle with dramatic lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1680607622631-1e243ddd6782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2MjE4MTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "product-lumina-serum-1",
+      "description": "Primary shot of Lumina Glow Serum bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1715750968540-841103c78d47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZXJ1bSUyMGJvdHRsZXxlbnwwfHx8fDE3NjIwOTgxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serum bottle"
+    },
+    {
+      "id": "product-lumina-serum-2",
+      "description": "Texture shot of Lumina Glow Serum.",
+      "imageUrl": "https://images.unsplash.com/photo-1748543668687-624e058c367c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3NtZXRpYyUyMHRleHR1cmV8ZW58MHx8fHwxNzYyMTgxNzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cosmetic texture"
+    },
+    {
+      "id": "product-silk-shampoo-1",
+      "description": "Primary shot of Silk-Feather Shampoo bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1747858989102-cca0f4dc4a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzaGFtcG9vJTIwYm90dGxlfGVufDB8fHx8MTc2MjEyNzYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shampoo bottle"
+    },
+    {
+      "id": "product-silk-shampoo-2",
+      "description": "Lather texture of Silk-Feather Shampoo.",
+      "imageUrl": "https://images.unsplash.com/photo-1714054732946-8d316bbd7a18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb2FtJTIwdGV4dHVyZXxlbnwwfHx8fDE3NjIxODE3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foam texture"
+    },
+    {
+      "id": "product-velvet-conditioner-1",
+      "description": "Primary shot of Velvet-Touch Conditioner.",
+      "imageUrl": "https://images.unsplash.com/photo-1686121544192-6112bb5ffded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25kaXRpb25lciUyMGJvdHRsZXxlbnwwfHx8fDE3NjIxMDI0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "conditioner bottle"
+    },
+    {
+      "id": "product-velvet-conditioner-2",
+      "description": "Creamy texture of Velvet-Touch Conditioner.",
+      "imageUrl": "https://images.unsplash.com/photo-1585945037805-5fd82c2e60b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjcmVhbSUyMHRleHR1cmV8ZW58MHx8fHwxNzYyMTY4MzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cream texture"
+    },
+    {
+      "id": "product-ethereal-mist-1",
+      "description": "Primary shot of Ethereal Mist perfume bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJmdW1lJTIwYm90dGxlfGVufDB8fHx8MTc2MjE4MTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume bottle"
+    },
+    {
+      "id": "product-ethereal-mist-2",
+      "description": "Lifestyle shot with Ethereal Mist perfume.",
+      "imageUrl": "https://images.unsplash.com/photo-1634055769490-dc0a9f22826a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyZnVtZSUyMGxpZmVzdHlsZXxlbnwwfHx8fDE3NjIxODE3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "perfume lifestyle"
+    },
+    {
+      "id": "product-revive-mask-1",
+      "description": "Primary shot of Revive Clay Mask jar.",
+      "imageUrl": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWNlJTIwbWFza3xlbnwwfHx8fDE3NjIxMzQ3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "face mask"
+    },
+    {
+      "id": "product-revive-mask-2",
+      "description": "Clay texture of Revive Clay Mask.",
+      "imageUrl": "https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbGF5JTIwdGV4dHVyZXxlbnwwfHx8fDE3NjIxODE3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clay texture"
+    },
+    {
+      "id": "product-celestial-oil-1",
+      "description": "Primary shot of Celestial Hair Oil bottle.",
+      "imageUrl": "https://images.unsplash.com/photo-1599451897608-ad6eb8676edf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYWlyJTIwb2lsfGVufDB8fHx8MTc2MjEwMDI5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair oil"
+    },
+    {
+      "id": "product-celestial-oil-2",
+      "description": "A drop of Celestial Hair Oil.",
+      "imageUrl": "https://images.unsplash.com/photo-1603354492259-f194294e72c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvaWwlMjBkcm9wfGVufDB8fHx8MTc2MjE4MTc2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oil drop"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjE1NDMxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIxMTM4MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMDc3NzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    }
+  ]
 }
