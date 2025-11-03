@@ -13,7 +13,7 @@ import {
   LogIn,
   UserPlus,
 } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {
@@ -32,6 +32,7 @@ import {
   DropdownMenuTrigger,
 } from '../ui/dropdown-menu';
 import { cn } from '@/lib/utils';
+import { CartContext } from '@/context/CartContext';
 
 const navLinks = [
   { href: '/shop', label: 'Shop' },
@@ -42,6 +43,8 @@ const navLinks = [
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const isLoggedIn = false; // Mock auth state
+  const { getCartItemCount } = useContext(CartContext)!;
+  const cartItemCount = getCartItemCount();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -127,9 +130,11 @@ export function Header() {
               <ShoppingCart className="h-5 w-5" />
               <span className="sr-only">Shopping Cart</span>
             </Button>
-            <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
-              3
-            </span>
+            {cartItemCount > 0 && (
+              <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
+                {cartItemCount}
+              </span>
+            )}
           </Link>
 
           <Sheet

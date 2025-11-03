@@ -1,11 +1,16 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Heart, ShoppingCart } from 'lucide-react';
+import { useContext } from 'react';
 import type { Product } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
+import { CartContext } from '@/context/CartContext';
+import { useToast } from '@/hooks/use-toast';
 
 interface ProductCardProps {
   product: Product;
@@ -32,12 +37,23 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 export function ProductCard({ product }: ProductCardProps) {
+  const { addToCart } = useContext(CartContext)!;
+  const { toast } = useToast();
+  
   const firstImage = PlaceHolderImages.find(
     (img) => img.id === product.imageIds[0]
   );
   const secondImage = product.imageIds[1]
     ? PlaceHolderImages.find((img) => img.id === product.imageIds[1])
     : firstImage;
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    toast({
+      title: 'Added to cart',
+      description: `${product.name} has been added to your cart.`,
+    });
+  };
 
   return (
     <div className="group relative flex w-full flex-col overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all hover:shadow-md">
@@ -112,7 +128,7 @@ export function ProductCard({ product }: ProductCardProps) {
               </p>
             )}
           </div>
-          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={handleAddToCart}>
             <ShoppingCart className="mr-2 h-4 w-4" />
             Add to Cart
           </Button>
